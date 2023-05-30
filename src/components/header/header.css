@@ -1,0 +1,68 @@
+.header {
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #fff;
+    z-index: 9999999;
+}
+
+.header .logo_page {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.header .name_page {
+    color: #000;
+    font-weight: 700;
+}
+
+.header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header .pure-menu-item {
+    margin-right: 185px;
+}
+
+.header .pure-menu-link {
+    font-size: 1em;
+    color: #252e69;
+    padding: 0.5em 1em;
+    font-weight: 700;
+}
+
+.standforukraine {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.cl__1 {
+    background-color: #0057B7;
+}
+
+.cl__2 {
+    background-color: #FFDD00;
+}
+
+.standforukraine .cl__1 {
+    flex: 1;
+    display: inline-block;
+    height: 2px;
+    width: 100%;
+}
+
+.standforukraine .cl__2 {
+    flex: 1;
+    display: inline-block;
+    height: 2px;
+    width: 100%;
+}

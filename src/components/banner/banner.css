@@ -1,0 +1,15 @@
+.banner {
+    background: linear-gradient(89.86deg, #5940f1 8.6%, #ce00ff 99.86%);
+    height: auto;
+    padding: 70px 0px;
+}
+
+.bigmessage {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 0;
+    font-style: normal;
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+}
