@@ -66,3 +66,51 @@
     height: 2px;
     width: 100%;
 }
+
+.menu_reponsive {
+    position: absolute;
+    right: 0;
+    right: -200px;
+    top: -10px;
+    display: none;
+}
+
+.menu_reponsive svg {
+    height: 30px;
+}
+.sidepanel  {
+    width: 100%;
+    position: fixed;
+    /* z-index: 1; */
+    top: 0;
+    left: 0;
+    background-color: #ededed;
+    overflow-x: hidden;
+    transition: 0.5s;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+/* ======================reponsive======================== */
+@media screen and (min-width:769px) {
+    .sidepanel div {
+        display: none;
+    }
+}
+@media screen and (max-width:768px) {
+    .pure-menu-item {
+        display: none;
+    }
+    .menu_reponsive {
+        display: block;
+    }
+    .btn__download  {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .header .pure-menu-item {
+        margin-right: 100px;
+    }
+}

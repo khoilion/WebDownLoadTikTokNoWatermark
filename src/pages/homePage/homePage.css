@@ -48,3 +48,21 @@
     line-height: 1.2em;
     margin-bottom: 24px;
 }
+
+.main__content__homePage {
+    margin: 0rem 3rem;
+}
+
+@media screen and (max-width:768px) {
+    .info-arrow {
+        margin: 0;
+        padding: 0;
+    }
+    .main__content__container__ .text {
+        margin: 0;
+        padding: 0px 10px;
+    }
+    .main__content__container__ h3 {
+        font-size: x-large;
+    }
+}

@@ -32,3 +32,12 @@
 .footer__navigation a:hover {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 768px) {
+    .footer__navigation a {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}

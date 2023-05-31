@@ -10,8 +10,8 @@ section>.content-wrapper {
     margin: auto;
 }
 
- .text {
-    padding-right: 40px;
+.text {
+    padding: 0rem 3rem;
     font-weight: 400;
     font-size: 18px;
     color: #252e69;
@@ -80,4 +80,10 @@ section>.content-wrapper {
 .blue__block ol li b {
     display: block;
     font-weight: 900;
+}
+
+@media screen and (max-width:768px) {
+    .blue__block {
+        padding: 20px;
+    }
 }
