@@ -21,7 +21,7 @@ const Header = () => {
           <ul className="d-flex  align-items-center">
             <li className="pure-menu-item">
               <Link to={"/"} className="pure-menu-link">
-                Main function.
+              How does it work
               </Link>
             </li>
             <li className="pure-menu-item">
