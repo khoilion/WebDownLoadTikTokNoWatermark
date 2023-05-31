@@ -24,7 +24,7 @@ const Banner = () => {
         <h1 className="bigmessage">Download TikTok MP4</h1>
         <div className="text-center">
           <a
-            className="btn__download "
+            className="btn__download text-dark bg-white"
             href="https://github.com/khoilion/WebDownLoadTikTokNoWatermark/releases/download/v1.0.0/tiktok-win32-x64.zip"
         
           >
